@@ -1,0 +1,31 @@
+.container-home {
+  background-image: url(assets/background-car.jpg);
+}
+
+.container-home section .big-title {
+  font-size: 6em;
+}
+
+.container-home section .big-title h1 {
+  text-align: center;
+}
+
+.container-home section .big-title h1 .quality-car {
+  font-weight: 100;
+}
+
+.container-home section .big-title h1 .maintenace {
+  font-weight: 700;
+}
+
+.container-home section .paragraph {
+  text-align: center;
+  padding: 80px 100px 0;
+  font-size: 18px;
+
+}
+
+.container-home section .paragraph p {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
