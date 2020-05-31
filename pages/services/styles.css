@@ -1,0 +1,74 @@
+.container-services {
+  width: 100%;
+  height: 100vh;
+  color: white;
+  background: url(../../assets/background-car-service.jpg);
+}
+
+.container-services .content {
+  width: 100%;
+
+  display: flex;
+}
+
+.container-services .content section {
+  width: 100%;
+  height: 91vh;
+  background: #ea202e;
+}
+
+.container-services .content section h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container-services .content section h1 label[for="we offer"] {
+  font-weight: 100;
+}
+
+
+.container-services .content section .maintenances-container {
+  width: 100%;
+  margin: 50px;
+
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  grid-column-gap: 50px;
+}
+
+.container-services .content section .maintenances-container .maintenances-content {
+  width: 100%;
+  text-align: center;
+
+  display: grid;
+  grid-row-gap: 15px;
+}
+
+.container-services .content section .maintenances-container .maintenances-content .number {
+  width: 50%;
+  height: 13vh;
+  margin: 0 50px 0; 
+  border: 1px solid white;
+  border-radius: 100%; 
+}
+
+.container-services .content section .maintenances-container .maintenances-content .number h1 {
+  margin: 13px;
+}
+
+.container-services .content section .maintenances-container .maintenances-content h4 {
+  font-size: 20px;
+}
+
+
+.container-services .content section .maintenances-container .maintenances-content p {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+
+.container-services .content aside {
+  background: url(../../assets/background-car-service-mid.png);
+  width: 55%;
+}

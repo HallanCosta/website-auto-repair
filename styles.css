@@ -1,5 +1,8 @@
 .container-home {
-  background-image: url(assets/background-car.jpg);
+  width: 100%;
+  height: 100vh;
+  color: white;
+  background-image: url(assets/background-car-home.jpg);
 }
 
 .container-home section .big-title {
