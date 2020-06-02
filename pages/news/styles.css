@@ -1,0 +1,93 @@
+.container-news {
+  background: #4c4e50;
+  width:  100%;
+  height: 100vh;
+  color: white;
+}
+
+.container-news .content {
+  margin: 20px;
+  align-items: center;
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;*/
+}
+
+.container-news .content section {
+  width: 100%;
+}
+
+.container-news .content section h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+.container-news .content section h1 span {
+  color: white;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+
+.container-news .content .news {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.container-news .content .news .post {
+  margin: 50px 50px 0;
+}
+
+.container-news .content .news .post .post-title a {
+  color: #2c2d2e;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.container-news .content .news .post .post-title a:hover {
+  transition: 1s;
+  color: #ea202e;
+}
+
+.container-news .content .news .post .post-time {
+  padding: 0 0 10px;
+  font-weight: 100;
+}
+
+.container-news .content .news .post p {
+  border-top: 2px solid #696c6f;
+  padding: 21px 0 10px;
+  font-weight: 300;
+}
+
+.container-news .content .news .post a {
+  font-size: 25px;
+}
+
+.container-news .content .news .post a:hover {
+  transition: 1s;
+  color: #ea202e;
+}
+
+.container-news .content .div-blog-page {
+  width: 100%;
+  text-align: center;
+  margin: 50px 0 0;
+}
+
+.container-news .content .div-blog-page button {
+  padding: 20px;
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+  background: #ea202e;
+  border: 1px solid #ea202e;
+  cursor: pointer;
+}
+
+.container-news .content .div-blog-page button:hover {
+  transition: 1s;
+  background: #2c2d2e;
+  border: 1px solid #2c2d2e;
+}

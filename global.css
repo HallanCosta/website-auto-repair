@@ -19,7 +19,9 @@ a {
 
 .container-home nav,
 .container-services nav,
-.container-price nav {
+.container-price nav,
+.container-news nav,
+.container-contacts nav {
   width: 100%;
   background: #001;
   border-bottom: 2px solid white;
@@ -32,55 +34,72 @@ a {
 
 .container-home nav .nav-logo, 
 .container-services nav .nav-logo,
-.container-price nav .nav-logo {
+.container-price nav .nav-logo,
+.container-news nav .nav-logo,
+.container-contacts nav .nav-logo {
   font-size: 30px; 
   display: flex;
   align-items: center;
 }
 
 
-.container-home nav .nav-logo .titulo-logo label,
-.container-services nav .nav-logo .titulo-logo label,
-.container-price nav .nav-logo .titulo-logo label {
+.container-home nav .nav-logo .title-logo h1,
+.container-services nav .nav-logo .title-logo h1,
+.container-price nav .nav-logo .title-logo h1,
+.container-news nav .nav-logo .title-logo h1,
+.container-contacts nav .nav-logo .title-logo h1 {
   font-style: italic;
+  color: white;
 }
 
-.container-home nav .nav-logo .titulo-logo label label[for=auto],
-.container-services nav .nav-logo .titulo-logo label label[for=auto],
-.container-price nav .nav-logo .titulo-logo label label[for=auto] {
+.container-home nav .nav-logo .title-logo h1 span,
+.container-services nav .nav-logo .title-logo h1 span,
+.container-price nav .nav-logo .title-logo h1 span,
+.container-news nav .nav-logo .title-logo h1 span,
+.container-contacts nav .nav-logo .title-logo h1 span {
   color: #ea202e;
 }
 
 .container-home nav .nav-item,
 .container-services nav .nav-item,
-.container-price nav .nav-item {
+.container-price nav .nav-item,
+.container-news nav .nav-item,
+.container-contacts nav .nav-item {
   display: flex;
   align-items: center;
 }
 
 .container-home nav .nav-item ul,
 .container-services nav .nav-item ul,
-.container-price nav .nav-item ul {
+.container-price nav .nav-item ul,
+.container-news nav .nav-item ul,
+.container-contacts nav .nav-item ul {
   display: flex;
   list-style: none;
 }
 
 .container-home nav .nav-item ul li,
 .container-services nav .nav-item ul li,
-.container-price nav .nav-item ul li {
+.container-price nav .nav-item ul li,
+.container-news nav .nav-item ul li,
+.container-contacts nav .nav-item ul li {
   padding: 20px;
   transition: 0.2s;
 }
 
 .container-home nav .nav-item ul li:hover,
 .container-services nav .nav-item ul li:hover,
-.container-price nav .nav-item ul li:hover {
+.container-price nav .nav-item ul li:hover,
+.container-news nav .nav-item ul li:hover,
+.container-contacts nav .nav-item ul li:hover {
   background: #002;
 }
 
 .container-services nav .nav-item ul li a:hover,
 .container-home nav .nav-item ul li a:hover,
-.container-price nav .nav-item ul li a:hover {
+.container-price nav .nav-item ul li a:hover,
+.container-news nav .nav-item ul li a:hover, 
+.container-contacts nav .nav-item ul li a:hover {
   /*color: #ea202e;*/
 }
 
