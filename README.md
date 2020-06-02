@@ -11,6 +11,7 @@
 ![price](https://user-images.githubusercontent.com/60573155/83468901-87286100-a454-11ea-9974-5e68d9b24f45.PNG) 
 
 - NEWS
+![news](https://user-images.githubusercontent.com/60573155/83572975-f78cbc00-a500-11ea-9457-44995b857974.PNG)
 
 - CONTACTS
 
