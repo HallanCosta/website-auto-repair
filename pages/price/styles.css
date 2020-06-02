@@ -1,0 +1,93 @@
+.container-price {
+  width: 100%;
+  color: white;
+  background: #4c4e50;
+  padding: 0 0 50px;
+}
+
+.container-price section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-price section h1 {
+  font-size: 50px;
+  margin: 100px 0 50px;
+}
+
+.container-price section h1 span {
+  font-weight: 100;
+}
+
+.container-price section .div-category {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container-price section .div-category button {
+  padding: 20px 40px 20px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  border: 2px solid white;
+  background: #4c4e50;
+  margin: 5px;
+}
+
+.container-price section .div-category button:focus {
+  background: #ea202e; 
+  border: 1px solid #ea202e; 
+}
+
+.container-price section .div-category button:hover {
+  background: #ea202e; 
+  border: 1px solid #ea202e; 
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.container-price section .list-price {
+  width: 100%;
+
+  margin: 50px 0 0;
+}
+
+.container-price section .list-price ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.container-price section .list-price ul li {
+  margin-bottom: 5px;
+}
+
+.container-price section .list-price ul li .list-price-item {
+  border-bottom: 2px solid #5a5c5e;
+  transform: translateX(10%);
+  width: 85%;
+
+  display: grid;
+  grid-template-columns: 3fr 1fr 2fr;
+}
+
+.container-price section .list-price ul li .list-price-item a {
+  font-weight: 300;
+}
+
+.container-price section .list-price ul li .list-price-item a:hover {
+  color: #ea202e;
+  transition: 0.8s;
+}
+
+.container-price section .list-price ul li .list-price-item .list-price-appointment { 
+  font-weight: 400;
+}
+
+
+
+

@@ -13,7 +13,7 @@
 
 .container-services .content section {
   width: 100%;
-  height: 91vh;
+  height: 90.8vh;
   background: #ea202e;
 }
 
@@ -26,7 +26,6 @@
 .container-services .content section h1 label[for="we offer"] {
   font-weight: 100;
 }
-
 
 .container-services .content section .maintenances-container {
   width: 100%;
@@ -57,10 +56,15 @@
   margin: 13px;
 }
 
-.container-services .content section .maintenances-container .maintenances-content h4 {
+.container-services .content section .maintenances-container .maintenances-content h4 a {
   font-size: 20px;
+  cursor: pointer;
+  transition: 0.8s;
 }
 
+.container-services .content section .maintenances-container .maintenances-content h4 a:hover {
+  color: #522;
+}
 
 .container-services .content section .maintenances-container .maintenances-content p {
   font-size: 18px;
