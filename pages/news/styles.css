@@ -1,6 +1,6 @@
 .container-news {
   background: #4c4e50;
-  width:  100%;
+  width:  100vw;
   height: 100vh;
   color: white;
 }
@@ -21,6 +21,7 @@
   color: white;
   font-size: 50px;
   text-align: center;
+  padding: 50px 50px 0;
 }
 
 .container-news .content section h1 span {
@@ -77,13 +78,11 @@
 }
 
 .container-news .content .div-blog-page button {
-  padding: 20px;
+  padding: 30px;
   font-size: 18px;
-  color: white;
   font-weight: 500;
   background: #ea202e;
   border: 1px solid #ea202e;
-  cursor: pointer;
 }
 
 .container-news .content .div-blog-page button:hover {

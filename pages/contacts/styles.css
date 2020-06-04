@@ -1,0 +1,136 @@
+.container-contacts {
+  width: 100vw;
+  height: 100vh;
+  background: #4c4e50;
+  color: white;
+}
+
+.container-contacts section {
+  padding: 10px 0px 0;
+  display: flex;
+  /*justify-content: space-around;*/
+  /*border: 3px solid red;*/
+}
+
+.container-contacts section h1 {
+  font-size: 50px;
+}
+
+.container-contacts section h1 span {
+  font-weight: 100;
+}
+
+.container-contacts section .contact-form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container-contacts section .contact-form .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 80%;
+  height: 50vh;
+  background: #ea202e;
+  margin: 20px 0 20px;
+  border-radius: 5px;
+}
+
+.container-contacts section .contact-form .icons a {
+  margin: 0 10px 0;
+  padding: 10px;
+}
+
+.container-contacts section .contact-form .icons a:hover {
+  background: #4c4e50;
+  transition: 1s;
+  border-radius: 5px;
+}
+
+
+.container-contacts section .contact-form .link {
+  width: 80%;
+}
+
+.container-contacts section .contact-form .link h3 { 
+  font-size: 20px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.container-contacts section .contact-form .link:hover {
+  color: #ea202e;
+  transition: 1s;
+}
+
+.container-contacts section .contact-form ul {
+  width: 100%;
+  list-style: none;
+  text-align: left;
+  padding: 0px 65px 10px;
+}
+
+
+.container-contacts section .contact-form ul li {
+  width: 100%;
+}
+
+
+
+.container-contacts section .contact-form ul li a:hover {
+  color: #ea202e;
+  transition: 1s;
+}
+
+.container-contacts section .contact-info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+.container-contacts section .contact-info form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 0px;
+}
+
+.container-contacts section .contact-info form input,
+.container-contacts section .contact-info form textarea {
+  background: #4c4e50;
+  padding: 20px;
+}
+
+.container-contacts section .contact-info form input + input {
+  margin: 10px 0 0;
+}
+
+.container-contacts section .contact-info form input:focus,
+.container-contacts section .contact-info form textarea:focus {
+  background: #4c4e50;
+}
+
+.container-contacts section .contact-info form textarea {
+  margin: 10px 0 0;
+  height: 20vh;
+}
+
+.container-contacts section .contact-info form button {
+  margin: 20px 0 0;
+  width: 25%;
+  border: 2px solid white;
+}
+
+.container-contacts section .contact-info form button:hover {
+  background: #ea202e;
+  border: 2px solid #ea202e;
+  transition: 1s;
+}

@@ -17,6 +17,24 @@ a {
   color: white;
 }
 
+button {
+  padding: 20px;
+  color: white;
+  background: #4c4e50;
+  cursor: pointer;
+}
+
+input, textarea {
+  border: 1px solid gray;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+}
+
 .container-home nav,
 .container-services nav,
 .container-price nav,
@@ -95,8 +113,8 @@ a {
   background: #002;
 }
 
-.container-services nav .nav-item ul li a:hover,
 .container-home nav .nav-item ul li a:hover,
+.container-services nav .nav-item ul li a:hover,
 .container-price nav .nav-item ul li a:hover,
 .container-news nav .nav-item ul li a:hover, 
 .container-contacts nav .nav-item ul li a:hover {
