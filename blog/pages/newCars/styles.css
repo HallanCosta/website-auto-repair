@@ -1,0 +1,50 @@
+.container-new-cars .content {
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto auto;
+  background: #ea202e;
+  border-radius: 0 0 15px 15px;
+}
+
+.container-new-cars .content h1 {
+  text-align: center;
+  font-size: 50px;
+  padding: 50px;
+}
+
+.container-new-cars .content span {
+  font-weight: 100;
+}
+
+.container-new-cars .content section .posts {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.container-new-cars .content section .posts .price {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  margin: 0 0 30px;
+}
+
+.container-new-cars .content section .posts .price img {
+  width: 200px;
+  height: 140px;
+  margin: 0 0 10px;
+  border-radius: 10px 10px 10px;s
+}
+
+.container-new-cars .content section .posts .price p {
+  font-weight: 100;
+  font-size: 20px;
+  margin: 0 10px 0;
+}
+
+.container-new-cars .content section .posts .price p a {
+  font-weight: 500;
+}
+
+.container-new-cars .content section .posts .price p a:hover {
+  transition: 1s;
+  color: #003;
+}

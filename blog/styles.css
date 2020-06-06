@@ -1,0 +1,37 @@
+body {
+  font-family: roboto;
+  background: url(assets/background-car-home.jpg);
+ 
+}
+
+.container-home .content {
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+} 
+
+.container-home .content header h1 {
+  font-size: 80px;
+  font-style: oblique;
+  padding: 20px;
+  color: #fff;
+}
+
+.container-home .content header h1 span {
+  color: #ea202e;
+}
+
+.container-home .content section h1 {
+  font-size: 90px;
+  color: #000833;
+  padding: 20px;
+}
+
+.container-home .content section h2 {
+  color: #000833;
+  font-size: 50px;
+  font-weight: 300;
+  text-align: center;
+}
+

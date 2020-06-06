@@ -1,0 +1,43 @@
+.container-capabilities .content header h1 {
+  font-size: 60px;
+  padding: 30px;
+}
+
+.container-capabilities .content header h1 span {
+  font-weight: 100;
+}
+
+.container-capabilities .content section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-capabilities .content section .image {
+  width: 45%;
+  text-align: center;
+}
+
+
+.container-capabilities .content section .text {
+  font-family: "Lato", Times, serif;
+  width: 50%;
+}
+
+
+.container-capabilities .content section .text h4 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+
+.container-capabilities .content section .text p {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.container-capabilities .content section .text button {
+  margin: 10px 0 0;
+}

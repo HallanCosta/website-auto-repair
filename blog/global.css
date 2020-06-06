@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 400 14px Roboto, sans-serif;
+  background: #4c4e50;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  padding: 24px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.buttons {
+  padding: 25px 40px 25px;
+  font-size: 18px;
+  color: white;
+  background: #ea202e;
+  border: none;
+  font-weight: 700;
+}
+
+.buttons:hover {
+  transition: 1s;
+  background: #2c2d2e;
+}
+
+.container-home,
+.container-new-cars,
+.container-capabilities,
+.container-services,
+.container-about {
+  color: white;
+  display: flex;
+}
+
+.container-home .content,
+.container-new-cars .content,
+.container-capabilities .content,
+.container-services .content,
+.container-about .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-home nav,
+.container-new-cars nav,
+.container-capabilities nav,
+.container-services nav,
+.container-about nav {
+  background: #001;
+  opacity: 0.8;
+  filter: alpha(opacity=50); 
+  
+  width: 15%;
+  border-radius: 0 0px 15px;
+}
+
+.container-home nav h1,
+.container-new-cars nav h1,
+.container-capabilities nav h1,
+.container-services nav h1,
+.container-about nav h1 {
+  text-align: center;
+  font-size: 24px;
+  font-style: italic;
+  padding: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-home nav h1 img,
+.container-new-cars nav h1 img,
+.container-capabilities nav h1 img,
+.container-services nav h1 img,
+.container-about nav h1 img {
+  width: 30px;
+  height: 30px;
+}
+
+.container-home nav h1 span,
+.container-new-cars nav h1 span,
+.container-capabilities nav h1 span,
+.container-services nav h1 span,
+.container-about nav h1 span {
+  color: #ea202e;
+}
+
+.container-home nav ul ,
+.container-new-cars nav ul ,
+.container-capabilities nav ul,
+.container-services nav ul,
+.container-about nav ul {
+  font-family: italic;
+}
+
+.container-home nav ul li,
+.container-new-cars nav ul li,
+.container-capabilities nav ul li,
+.container-services nav ul li,
+.container-about nav ul li {
+  padding: 10px 15px 10px;
+  cursor: pointer;
+}
+
+.container-home nav ul li:hover,
+.container-new-cars nav ul li:hover,
+.container-capabilities nav ul li:hover,
+.container-services nav ul li:hover,
+.container-about nav ul li:hover {
+  background: #002;
+  border-radius: 0 0px 15px;
+  transition: .2s;
+}
+
+.container-home nav ul li a,
+.container-new-cars nav ul li a,
+.container-capabilities nav ul li a,
+.container-services nav ul li a,
+.container-about nav ul li a {
+  font-size: 18px;
+}
+
