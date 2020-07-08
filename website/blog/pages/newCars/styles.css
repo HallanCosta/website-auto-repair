@@ -31,7 +31,8 @@
   width: 200px;
   height: 140px;
   margin: 0 0 10px;
-  border-radius: 10px 10px 10px;s
+  border-radius: 10px 10px 10px;
+  cursor: pointer;
 }
 
 .container-new-cars .content section .posts .price p {

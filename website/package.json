@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "dev": "live-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "live-server"  
   },
   "keywords": [],
   "author": "HallanCosta",

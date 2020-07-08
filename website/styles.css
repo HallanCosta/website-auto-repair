@@ -2,7 +2,8 @@
   width: 100%;
   height: 100vh;
   color: white;
-  background-image: url(assets/background-car-home.jpg);
+  background-image: url(assets/background-home-car-blue.jpg);
+  animation: homeBackground 15s infinite;
 }
 
 .container-home section .big-title {
@@ -25,10 +26,23 @@
   text-align: center;
   padding: 80px 100px 0;
   font-size: 18px;
-
+  transition: 2s;
 }
 
 .container-home section .paragraph p {
   text-align: center;
   font-family: 'Lato', sans-serif;
 }
+
+@keyframes homeBackground {
+  10% {
+    background-image: url(assets/background-home-car-blue.jpg);
+  }
+  33% {
+    background-image: url(assets/background-home-car-orange.jpg);
+  }
+  67% {
+    background-image: url(assets/background-home-car-red.jpg);
+  }
+}
+

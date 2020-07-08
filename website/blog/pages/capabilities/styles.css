@@ -1,0 +1,123 @@
+
+/*Modal*/
+
+#modal-open {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .8);
+  position: fixed;
+  display: none;
+}
+
+#modal-open:target {
+  display: block;
+}
+
+#modal-open:target ~.modal {
+  top: 70px;
+  transition: all 0.3s;
+  transition-delay: .2s; 
+}
+
+#modal-close {
+  width: 40px;
+  height: 40px;
+  color: gray;
+  text-align: center;
+  font-family: 'Arial';
+  font-size: 25px;
+  position: absolute;
+  right: 0;
+
+  text-decoration: none;
+}
+
+#modal-close:hover {
+  opacity: .6;
+}
+
+.modal {
+  width: 720px;
+  height: 480px;
+  position: absolute;
+  left: 24%;
+  top: -510px;
+  background: #fff;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px 5px 5px 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+
+.modal .modal-header h4 {
+  color: black;
+  font-size: 25px;
+  text-align: center;
+}
+
+.modal .modal-main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.modal .modal-main img {
+  width: 150px;
+  height: 150px;
+}
+
+.modal .modal-main p {
+  width: 70%;
+  color: black;
+}
+
+
+
+
+
+
+.container-capabilities .content header h1 {
+  font-size: 60px;
+  padding: 30px;
+}
+
+.container-capabilities .content header h1 span {
+  font-weight: 100;
+}
+
+.container-capabilities .content section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container-capabilities .content section .image {
+  width: 45%;
+  text-align: center;
+}
+
+
+.container-capabilities .content section .text {
+  font-family: "Lato", Times, serif;
+  width: 50%;
+}
+
+
+.container-capabilities .content section .text h4 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+
+.container-capabilities .content section .text p {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 100;
+  margin: 0 0 36px;
+}
+

@@ -8,8 +8,6 @@
 .container-contacts section {
   padding: 10px 0px 0;
   display: flex;
-  /*justify-content: space-around;*/
-  /*border: 3px solid red;*/
 }
 
 .container-contacts section h1 {
@@ -115,12 +113,14 @@
 
 .container-contacts section .contact-info form input:focus,
 .container-contacts section .contact-info form textarea:focus {
-  background: #4c4e50;
+  background: gray;
+  border: 1px solid #E1FAEC;
 }
 
 .container-contacts section .contact-info form textarea {
   margin: 10px 0 0;
   height: 20vh;
+  resize: none;
 }
 
 .container-contacts section .contact-info form button {

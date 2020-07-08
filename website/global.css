@@ -35,6 +35,25 @@ input, textarea {
   color: white;
 }
 
+/*.activated {
+  background: #ea202e;
+  border: 1px solid #ea202e;
+}
+
+.deactivated {
+  background: #4c4e50;
+  border: 1px solid #fff;
+}
+*/
+.fadeOut {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fadeIn {
+  opacity: 1;
+}
+
 .container-home nav,
 .container-services nav,
 .container-price nav,

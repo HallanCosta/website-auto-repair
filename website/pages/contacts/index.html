@@ -71,13 +71,15 @@
               
           <h1>CONTACT <span>INFO</span></h1>
           
-          <form>
-            <input type="text" name="name" placeholder="Name">
-            <input type="text" name="phone" placeholder="Phone">
-            <input type="text" name="email" placeholder="E-mail">
-            <textarea name="message" placeholder="Message"></textarea>
+          <span id="errors"></span>
 
-            <button>SEND</button>
+          <form id="form-contact-info">
+            <input type="text" id="name" name="name" placeholder="Name">
+            <input type="text" id="phone" name="phone" placeholder="Phone" maxlength="11">
+            <input type="text" id="email" name="email" placeholder="E-mail">
+            <textarea id="message" name="message" placeholder="Message"></textarea>
+
+            <button type="submit">SEND</button>
           </form>
         </div>
 
@@ -87,6 +89,9 @@
   
   </div>
 
+
+  <script src="events/blur.js"></script>
+  <script src="events/submit.js"></script>
   <script src="https://unpkg.com/feather-icons"></script>
   <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
   <script>
